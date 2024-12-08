@@ -1,0 +1,58 @@
+site_name: 'Deberes de Gabriel'
+theme:
+  name: 'material'
+  custom_dir: 'overrides'
+  palette:
+    primary: 'indigo'
+    accent: 'pink'
+    background: 'white'
+    surface: 'grey'
+    error: 'red'
+extra_css:
+  - 'overrides/extra.css'
+
+nav:
+  - Inici: index.md
+  - Articles EDD:
+      - 'Actividades sobre Ant y Maven':
+          - 'Ant Project': edd/Actividades sobre Ant y Maven/ant_project/index.md
+          - 'Maven Project': edd/Actividades sobre Ant y Maven/maven_project/index.md
+      - 'Actividades Mkdocs y publicación en Github':
+          - 'Actividad 1-2 RSC SVN': edd/ActividadesMkdocs y publicación en Github/actividad_1_2_RSC_SVN.txt
+          - 'Actividad 3 RSC SVN': edd/ActividadesMkdocs y publicación en Github/actividad_3_RSC_SVN.txt
+          - 'Actividad 4 RSC SVN': edd/ActividadesMkdocs y publicación en Github/actividad_4_RSC_SVN.txt
+      - 'Artículos UD1':
+          - 'Article 1': edd/Articulos UD1/article1.md
+          - 'Article 2': edd/Articulos UD1/article2.md
+          - 'Article 3': edd/Articulos UD1/article3.md
+          - 'Article 4': edd/Articulos UD1/article4.md
+          - 'Article 5': edd/Articulos UD1/article5.md
+          - 'Article 6': edd/Articulos UD1/article6.md
+  - Articles LMI:
+      - 'Artículos':
+          - 'Article 1': lmi/Articulos/article1.md
+          - 'Article 2': lmi/Articulos/article2.md
+      - 'Html':
+          - 'Ejercicio 1': lmi/Html/Ejercicio 1.html
+          - 'Ejercicio 2': lmi/Html/Ejercicio 2.html
+          - 'Ejercicio 3': lmi/Html/Ejercicio 3.html
+          - 'Ejercicio 4': lmi/Html/Ejercicio 4.html
+          - 'Ejercicio 5': lmi/Html/Ejercicio 5.html
+          - 'Ejercicio 6': lmi/Html/Ejercicio 6.html
+          - 'Ejercicio 7': lmi/Html/Ejercicio 7.html
+          - 'Ejercicio 8': lmi/Html/Ejercicio 8.html
+          - 'Ejercicio 9': lmi/Html/Ejercicio 9.html
+          - 'Formulario': lmi/Html/Formulario.html
+      - 'Javascript':
+          - '1. Declaració de variables': lmi/Javascript/1. Declaració de variables i operadors javascript Copiar código.js
+          - '10. while i do...while': lmi/Javascript/10. while i do...while javascript Copiar código.js
+          - '11. Funció que retorna un valor': lmi/Javascript/11. Funció que retorna un valor javascript Copiar código.js
+          - '12. Funció amb paràmetres per defecte': lmi/Javascript/12. Funció amb paràmetres per defecte javascript Copiar código.js
+          - '2. Ús de typeof': lmi/Javascript/2. Ús de typeof javascript Copiar código.js
+          - '3. Conversió de tipus automàtica': lmi/Javascript/3. Conversió de tipus automàtica javascript Copiar código.js
+          - '4. Vectors i accés a elements': lmi/Javascript/4. Vectors i accés a elements javascript Copiar código.js
+          - '5. JSON bàsic': lmi/Javascript/5. JSON bàsic javascript Copiar código.js
+          - '6. Condicionals simples': lmi/Javascript/6. Condicionals simples amb.js
+          - '7. Condicional switch': lmi/Javascript/7. Condicional switch.js
+          - '8. Bucle for': lmi/Javascript/8. Bucle for javascript Copiar código.js
+          - '9. Bucle for...of': lmi/Javascript/9. Bucle for...of i vectors javascript Copiar código.js

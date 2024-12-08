@@ -1,0 +1,14 @@
+
+RSC/SVN. Actividad 4. Describe correctamente las órdenes para rcs y svn. Justifica las diferencias entre svn y rcs de las órdenes co y ci.
+
+Las herramientas de control de versiones como RCS y SVN tienen comandos para gestionar el código y sus versiones. Aquí se describen los comandos clave:
+
+- **rcs**: RCS (Revision Control System) es un sistema de control de versiones que almacena las versiones de un solo archivo a la vez.
+    - `co` (checkout): Se utiliza para obtener una copia de trabajo de un archivo. También permite trabajar con versiones anteriores del archivo.
+    - `ci` (check-in): Se usa para subir los cambios realizados a un archivo a la base de datos de RCS.
+
+- **svn**: SVN (Apache Subversion) es un sistema de control de versiones más moderno y robusto que RCS, capaz de gestionar múltiples archivos y directorios de un proyecto.
+    - `svn co` (checkout): Similar al comando `co` en RCS, permite descargar una copia de trabajo de los archivos en el repositorio.
+    - `svn ci` (commit): Al igual que en RCS, `svn ci` se utiliza para subir los cambios al repositorio central, asegurando que los demás desarrolladores puedan acceder a los mismos archivos actualizados.
+
+Las diferencias clave entre `co` y `ci` en RCS y SVN radican en la capacidad de SVN para gestionar repositorios completos, mientras que RCS se limita a manejar archivos individuales. Además, SVN permite realizar operaciones más avanzadas con varios archivos y directorios a la vez.
