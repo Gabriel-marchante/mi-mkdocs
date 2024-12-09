@@ -1,0 +1,23 @@
+
+RSC/SVN. Actividad 1. Desarrollo colaborativo. Justifica correctamente el uso de herramientas para el control de versiones.
+
+El desarrollo colaborativo es un proceso en el que múltiples desarrolladores pueden trabajar juntos en un proyecto. Para facilitar la gestión del código y las versiones, se utilizan herramientas de control de versiones (CVS), como Git, SVN, entre otras. Estas herramientas permiten:
+
+1. Gestionar las distintas versiones del código, permitiendo que cada desarrollador trabaje de forma aislada y luego integre sus cambios sin perder información.
+2. Facilitar la resolución de conflictos cuando varias personas modifican el mismo archivo.
+3. Mejorar la trazabilidad del proyecto, guardando un historial de los cambios y el autor de los mismos.
+
+El uso de un control de versiones garantiza que el trabajo sea más organizado y coherente, además de reducir el riesgo de errores debido a modificaciones accidentales.
+
+RSC/SVN. Actividad 2. Control de versiones y desarrollo iterativo. Estructura sugerida con varios snapshots.
+
+El control de versiones permite llevar un registro detallado de los cambios realizados a lo largo del desarrollo del proyecto. Un enfoque común es el desarrollo iterativo, que involucra la creación de varias versiones (o "snapshots") del código a medida que se avanza.
+
+Una estructura sugerida con varios snapshots podría ser:
+
+1. **Versión inicial**: La primera versión del código con las funcionalidades básicas implementadas.
+2. **Iteración 1**: Implementación de nuevas características o corrección de errores.
+3. **Iteración 2**: Añadir más funcionalidades y mejorar el rendimiento.
+4. **Iteración final**: Versión de producción lista para ser entregada o desplegada.
+
+Esta estructura asegura que el proyecto esté bien organizado, permitiendo que cada snapshot sea una representación clara del progreso en el tiempo.
